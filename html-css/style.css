@@ -50,3 +50,152 @@
 .btn-tweet:hover{
     box-shadow: 1px 1px 5px rgba(0,0,0, 0.25);
 }
+.pagination{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.pagination h1{
+    padding: 10px;
+}
+.pagination button{
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+    padding-right: 8px;
+    margin-right: 8px;
+}
+.button-stretch{
+background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: padding-top 1s,
+        padding-bottom 1s,
+        padding-left 1s,
+        padding-right 1s;
+    margin-bottom: 15px;}
+.button-stretch:hover {
+padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.button-shadow{
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    ;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: padding-top 1s,
+            padding-bottom 1s,
+            padding-left 1s,
+            padding-right 1s;
+    }
+    .button-shadow:active{
+        margin-top: 2px;
+        margin-left: 2px;
+}
+.numbers{
+  
+    margin-top: 20px;
+    margin-left: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    /* align-self: ; */
+
+}
+.numbers button{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s,
+        margin 0.15s;
+
+}
+.numbers button:hover{
+padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left;
+}
+.video-title{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    margin: 0 0 2px;
+    color:#212529 ;
+    line-height: 22px;
+}
+.video-interactions{
+    font-family: Arial;
+    font-size: 14px;
+    text-align: left;
+    margin: 0 0 16px;
+    color: #606060;
+}
+.video-owner{
+    font-family: Arial;
+    font-size: 14px;
+    text-align: left;
+    margin: 0 0 16px;
+    color: #606060;
+    
+    }
+.video-description{
+    font-family: Arial;
+    font-size: 14px;
+    text-align: left;
+    width: 280px;
+    color: #606060;
+    line-height: 22px;
+    
+
+}
+.shop{
+    background-color: #e34140;
+    padding: 16px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-family: Arial;
+
+}
+.shoplink{
+    color: white;
+    font-size: 14px ;
+    font-family: Arial;
+    text-decoration: none;
+    
+}
+.shoplink:hover{
+text-decoration: underline;
+
+}
